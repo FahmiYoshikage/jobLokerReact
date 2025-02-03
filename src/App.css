@@ -1,0 +1,439 @@
+/* hero section start */
+.upper {
+  background-color: #f3f3f3;
+}
+
+.upper-container {
+  width: 100%;
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 10rem 0;
+  text-align: center;
+}
+
+.upper-container h1 {
+  font-size: 3.6rem;
+  margin-bottom: 2rem;
+}
+
+.upper-container p {
+  font-size: 1.6rem;
+  color: gray;
+  margin-bottom: 4rem;
+}
+
+.email-box {
+  display: flex;
+}
+
+.upper-container input[type="email"] {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0.2rem;
+  box-sizing: border-box;
+}
+
+.upper-container button {
+  background-color: rgb(243, 106, 62);
+  color: white;
+  padding: 1rem 5rem;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.lower {
+  margin: 6rem 0;
+}
+
+.lower-container {
+  max-width: 70%;
+  margin: 0 auto;
+}
+.post {
+  border-bottom: 0.1rem solid #ddd;
+  padding: 3rem 0;
+}
+.post:last-child {
+  border-bottom: none;
+}
+.post-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin: 0 0 1rem;
+}
+.post-meta {
+  font-size: 1.4rem;
+  color: gray;
+  margin: 0 0 1rem;
+}
+.post-content {
+  font-size: 1.6rem;
+  margin: 0 0 2rem;
+}
+.read-more {
+  display: inline-block;
+  font-size: 1.4rem;
+  color: black;
+  text-decoration: none;
+  border: 0.1rem solid #ddd;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+.read-more:hover {
+  background-color: #333;
+  color: #fff;
+}
+/* hero section start */
+
+/* footer section start */
+.footer {
+  background-color: #ff6724;
+  color: white;
+  padding: 4rem 0;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+.footer .container div {
+  flex: 1;
+  min-width: 20rem;
+  margin: 1rem 0;
+}
+.footer h4 {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+.footer p, .footer a {
+  font-size: 1.6rem;
+  color: white;
+  text-decoration: none;
+}
+.underline a:hover {
+  text-decoration: underline;
+}
+.footer .social-icons {
+  display: flex;
+  gap: 1rem;
+}
+.footer .social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.8rem;
+  width: 3.6rem;
+  height: 3.6rem;
+  border: 0.1rem solid white;
+  border-radius: 50%;
+}
+.footer .social-icons a:hover {
+  background-color: white;
+  color: #ff6724;
+}
+.footer .copyright {
+  text-align: center;
+  margin-top: 2rem;
+  border-top: 0.1rem solid #fff;
+  padding-top: 2rem;
+}
+.footer .copyright a {
+  color: white;
+}
+/* footer section end */
+
+
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+/*
+ * body.dark-mode .header {
+ *  background-color: #1e1e1e;
+ * } */
+
+body.dark-mode .logo {
+  /* color: #e0e0e0; */
+  color: white;
+}
+
+body.dark-mode .icon {
+  color: white;
+}
+
+body.dark-mode .upper {
+  background-color: #1e1e1e;
+}
+
+body.dark-mode .upper-container input[type="email"] {
+  background-color: #333;
+  color: #e0e0e0;
+  border: 1px solid #444;
+}
+
+body.dark-mode .upper-container button {
+  background-color: #ff5722;
+}
+
+body.dark-mode .post {
+  border-bottom: 0.1rem solid #444;
+}
+
+body.dark-mode .post-title {
+  color: #e0e0e0;
+}
+
+body.dark-mode .post-meta {
+  color: #b0b0b0;
+}
+
+body.dark-mode .post-content {
+  color: #e0e0e0;
+}
+
+body.dark-mode .read-more {
+  color: #e0e0e0;
+  border: 0.1rem solid #444;
+}
+
+body.dark-mode .read-more:hover {
+  background-color: #444;
+  color: #fff;
+}
+
+body.dark-mode .footer {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+body.dark-mode .footer a {
+  color: #e0e0e0;
+}
+
+body.dark-mode .footer .social-icons a {
+  color: #e0e0e0;
+  border: 0.1rem solid #e0e0e0;
+}
+
+body.dark-mode .footer .social-icons a:hover {
+  background-color: #e0e0e0;
+  color: #1e1e1e;
+}
+
+body.dark-mode .footer .copyright {
+  border-top: 0.1rem solid #444;
+}
+
+/* Transisi untuk body */
+body {
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+body.dark-mode .upper{
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+/* Gaya untuk Dark Mode */
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+/* Jika Anda ingin transisi pada link atau elemen lainnya */
+a {
+  transition: color 0.5s ease;
+}
+
+/* Transisi pada ikon */
+#dark-mode-icon i {
+transition: transform 0.5s ease, color 0.5s ease;
+}
+
+/* Gaya saat Dark Mode */
+.dark-mode #dark-mode-icon i {
+  transform: rotate(180deg);
+  color: yellow;
+}
+
+/* Transisi global */
+body, .upper, .upper-container input[type="email"], .upper-container button,
+.post, .read-more, .footer, .footer a, .footer .social-icons a {
+  transition: background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease;
+}
+
+/* Mode Cerah */
+body {
+  background-color: white;
+  color: black;
+}
+
+.upper {
+  background-color: #f3f3f3;
+}
+
+.read-more {
+  color: black;
+  border: 0.1rem solid #ddd;
+}
+
+/* Mode Gelap */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode .upper {
+  background-color: #1e1e1e;
+}
+
+body.dark-mode .read-more {
+  color: #e0e0e0;
+  border-color: #444;
+}
+
+#dark-mode-icon i {
+transition: transform 0.5s ease, color 0.5s ease;
+}
+
+.dark-mode #dark-mode-icon i {
+  transform: rotate(180deg);
+  color: yellow;
+}
+
+body {
+  background-color: white;
+  color: black;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.upper {
+  background-color: #f3f3f3;
+  transition: background-color 0.5s ease;
+}
+
+.read-more {
+  color: black;
+  border: 0.1rem solid #ddd;
+  transition: background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease;
+}
+/* dark mode end */
+
+/* Hamburger icon default style */
+#hamburger-enak {
+/* display: flex;
+ *  align-items: center;
+ *  justify-content: center;
+ *  width: 30px;
+ *  height: 30px;
+ *  background: transparent;
+ *  border: none;
+ *  cursor: pointer; */
+z-index: 10;
+}
+
+#hamburger-enak i {
+font-size: 24px;
+transition: transform 0.3s ease;
+}
+
+/* Hamburger icon active state */
+.show-nav #hamburger-enak i {
+  transform: rotate(90deg);
+}
+
+.search-container {
+  position: relative;
+  display: inline-block;
+}
+
+#search-icon {
+font-size: 24px;
+cursor: pointer;
+}
+
+#search-input {
+position: absolute;
+top: 110%;
+transform: translateX(-50%);
+opacity: 0;
+width: 0;
+padding: 0;
+border: none;
+border-radius: 10px;
+background-color: #f1f1f1;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+transition: opacity 0.3s ease, width 0.3s ease, padding 0.3s ease;
+z-index: 10;
+text-align: center;
+font-size: large;
+}
+
+#search-input.visible {
+opacity: 1;
+width: 250px;
+height: 4rem;
+padding: 8px 16px;
+border: 1px solid #ccc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Roboto, Arial;
+  background-color: white;
+}
+svg {
+  position: fixed; /* Keep the SVG fixed */
+  top: 0; /* Position it at the top of the viewport */
+  left: 0; /* Position it at the left of the viewport */
+  width: 100%; /* Make it full width */
+  z-index: 1; /* Send it behind other content */
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: 1.2rem 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: 'Segoe UI';
+  font-size: 2.6rem;
+  font-weight: bold;
+  color: white;
+}
+
+.icon {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
