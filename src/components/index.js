@@ -1,10 +1,14 @@
 import React from "react";
-import JobItem from "./JobItem";
-import SearchBar from "./SearchBar";
-import JobList from "./JobItem";
+import Body from "./Body";
+import Navbar from "./Navbar";
+import Notification from "./Notification";
+import Footer from "./Footer";
+import AdminPanel from "./AdminPanel";
 
 export {
-    JobItem,
-    SearchBar,
-    JobList
+    Body,
+    Navbar,
+    Notification,
+    Footer,
+    AdminPanel
 }

@@ -72,6 +72,7 @@
   font-size: 1.6rem;
   margin: 0 0 2rem;
 }
+
 .read-more {
   display: inline-block;
   font-size: 1.4rem;
@@ -90,7 +91,8 @@
 
 /* footer section start */
 .footer {
-  background-color: #ff6724;
+  /* background-color: #ff6724; */
+  background-color: #1e7085;
   color: white;
   padding: 4rem 0;
 }
@@ -395,7 +397,7 @@ border: 1px solid #ccc;
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 80%;
 }
 
 body {
@@ -436,4 +438,9 @@ svg {
   font-size: 2rem;
   padding: 1rem 2rem;
   cursor: pointer;
+}
+
+.p-black{
+  color: black;
+  opacity: 1;
 }

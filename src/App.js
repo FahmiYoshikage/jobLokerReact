@@ -1,12 +1,24 @@
 import React from "react";
-import { JobItem, SearchBar, JobList } from "./components";
-import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Notification, Body, Navbar, Footer, AdminPanel} from "./components";
+import "./App.css"; 
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = ({ searchQuery, setSearchQuery }) => {
   return (
-    <div>
-      <JobItem/>
-    </div>
+    <Router>
+      <Navbar></Navbar>
+      <Notification></Notification>
+      <div>
+        <Routes>
+          <Route path="/" element={<Body />} />
+          <Route path="/admin" element={<AdminPanel />} />
+        </Routes>
+      </div>
+      <Footer></Footer>
+      {/* <JobItem/> */}
+      {/* <JobList></JobList> */}
+    </Router>
   );
 };
 
